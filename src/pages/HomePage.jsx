@@ -7,10 +7,10 @@ import Clients from "../parts/Clients";
 import Sitemap from "../parts/HomePage/Sitemap";
 import Footer from "../parts/Footer";
 
-const HomePage = (props) => {
+const HomePage = () => {
   return (
     <>
-      <Header />
+      <Header theme="white" position="absolute" />
       <Hero />
       <BrowseRoom />
       <JustArrived />
